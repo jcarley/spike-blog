@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SpikeBlog</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div ng-app='MessagingModule'>
+    <%= yield %>
+  </div>
+</body>
+</html>
