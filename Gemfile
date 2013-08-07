@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.2'
 gem 'jquery-rails'
 gem 'sqlite3'
+gem 'slim-rails'
 
 
 # Gems used only for assets and not required
